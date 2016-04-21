@@ -1,1 +1,1 @@
-# Formulae for https://github.com/geomacy/salt-ent-test
+Formulae for https://github.com/geomacy/salt-ent-test
