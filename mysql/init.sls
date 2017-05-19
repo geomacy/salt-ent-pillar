@@ -35,6 +35,11 @@ mysql:
       # my.cnf param that not require value
       no-auto-rehash: noarg_present
 
+  salt_user:
+    salt_user_name: 'salt'
+    salt_user_password: 'someotherpass'
+    grants:
+      - 'all privileges'
 
   # Manage databases
   database:
