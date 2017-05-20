@@ -27,7 +27,7 @@ mysql:
     mysqld:
       # you can use either underscore or hyphen in param names
       bind-address: 0.0.0.0
-      log_bin: /var/log/mysql/mysql-bin.log
+      log_bin: /var/log/mariadb/mysql-bin.log
       port: 3307
       binlog_do_db: classicmodels
       auto_increment_increment: 5
